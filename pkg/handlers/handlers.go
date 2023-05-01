@@ -1,11 +1,10 @@
 package handlers
 
 import (
+	"bedandbreakfast/pkg/config"
+	"bedandbreakfast/pkg/models"
+	"bedandbreakfast/pkg/render"
 	"net/http"
-
-	"github.com/M0F3/bedandbreakfast/pkg/config"
-	"github.com/M0F3/bedandbreakfast/pkg/models"
-	"github.com/M0F3/bedandbreakfast/pkg/render"
 )
 
 // Repository

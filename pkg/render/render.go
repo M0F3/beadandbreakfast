@@ -1,14 +1,13 @@
 package render
 
 import (
+	"bedandbreakfast/pkg/config"
+	"bedandbreakfast/pkg/models"
 	"bytes"
 	"log"
 	"net/http"
 	"path/filepath"
 	"text/template"
-
-	"github.com/M0F3/bedandbreakfast/pkg/config"
-	"github.com/M0F3/bedandbreakfast/pkg/models"
 )
 
 

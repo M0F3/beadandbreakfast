@@ -1,14 +1,15 @@
 package main
 
 import (
+	"bedandbreakfast/pkg/handlers"
+	"bedandbreakfast/pkg/render"
 	"fmt"
 	"log"
 	"net/http"
 	"time"
 
-	"github.com/M0F3/bedandbreakfast/pkg/config"
-	"github.com/M0F3/bedandbreakfast/pkg/handlers"
-	"github.com/M0F3/bedandbreakfast/pkg/render"
+	"bedandbreakfast/pkg/config"
+
 	"github.com/alexedwards/scs/v2"
 )
 

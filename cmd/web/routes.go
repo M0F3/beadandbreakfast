@@ -1,10 +1,10 @@
 package main
 
 import (
+	"bedandbreakfast/pkg/config"
+	"bedandbreakfast/pkg/handlers"
 	"net/http"
 
-	"github.com/M0F3/bedandbreakfast/pkg/config"
-	"github.com/M0F3/bedandbreakfast/pkg/handlers"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 )
